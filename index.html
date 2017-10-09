@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<!--Reference: https://www.highcharts.com/docs/working-with-data/data-module-->
-<!--Population: https://ourworldindata.org/world-population-growth/ -->
+<!--Reference: http://jsfiddle.net/gh/get/library/pure/highcharts/highcharts/tree/master/samples/highcharts/demo/line-time-series/-->
+<!-- Datetime format: https://blog.emilecantin.com/web/highcharts/2014/10/26/highcharts-datetime-series.html
+                      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/UTC -->
+<!--Time Series: https://darksky.com -->
 
 <html>
 <head>    
@@ -9,21 +11,16 @@
 
 <body>
 
-<h1>World Population Growth</h1>
+<h1>Temperature of Beijing - 2005</h1>
 
 <div id="container" style="min-width: 310px; height: 400px; max-width: 800px; margin: 0 auto"></div>
 
 <div style="max-width: 800px; margin: 0 auto">
 
-</div>
-<div hidden>
-    <pre id="demo"></pre>
-</div>
-
 <script src="http://code.highcharts.com/highcharts.js"></script>
 <script src="http://code.highcharts.com/modules/data.js"></script>
 <script src="https://rawgit.com/mholt/PapaParse/master/papaparse.js"></script>
-<script src="./bars.js"></script>
+<script src="./timeseries.js"></script>
 
 </body>
 

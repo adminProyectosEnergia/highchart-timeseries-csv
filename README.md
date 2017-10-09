@@ -1,4 +1,4 @@
-# CSV File Read BarChart Using Highchart 
+# Time Series Chart Using Highchart with CSV File
 
 This is a simple example to show how to use the highcharts code with a csv file. The data is represented in a Time Series Chart.
 

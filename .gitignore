@@ -1,0 +1,17 @@
+# File extensions #
+*.xls
+*.xlsx
+*.xlsm
+
+# Compiler outputs #
+*.a
+*.bat
+*.exe
+
+# Directories #
+
+
+# Packages #
+*.gz
+*.iso
+*.jar
